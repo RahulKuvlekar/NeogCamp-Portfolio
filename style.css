@@ -1,22 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
 :root{
-    --primary-color : #6EE7B7;
-    --dark-green:#064E3B;
-    --off-white: #E7E5E4;
+    --primary-color : #BEF264;
+    --dark-green:#166534;;
+    --off-white:#ECFCCB;
     --dark-gray: #6B7280;
 }
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background-color: #F7FEE7;
     /* font-weight: 400; */
 }
 hr{
     margin: 2rem;
 }
+/* SPACES */
+.margin-top{
+    margin-top: 4rem;
+}
+.padding-top{
+    padding-top: 4rem;
+}
 /* CONTAINER */
 .container{
-    padding: 0.5rem 1rem;
+    padding:1rem;
     text-align: center;
 }
 
@@ -28,6 +36,7 @@ hr{
 /* LINKS */
 .link{
     text-decoration: none;
+    /* box-sizing: border-box; */
     padding: 1rem 1rem;
     margin: 1rem 1rem 1rem 1rem;
     
@@ -35,14 +44,20 @@ hr{
 
 .link-primary{
     background-color: var(--primary-color);
-    color:white;
+    color:var(--dark-green);
     border-radius: 0.5rem;
+    display: block;
+    max-width: 150px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary{
-    border: 1px solid var(--primary-color) ;
-    color: var(--primary-color);
+    border: 1px solid var(--dark-green) ;
+    color: var(--dark-green);
     border-radius: 0.5rem;
+    display: block;
+    max-width: 150px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 /* LIST */
@@ -61,7 +76,7 @@ hr{
 .navigation{
     background-color: var(--primary-color)
     ;
-    color: white;
+    color:var(--dark-green) ;
     padding: 1rem;
     border-bottom-left-radius:0.5rem ;
 
@@ -78,7 +93,7 @@ hr{
 }
 
 .navigation .link{
-    color: white;
+    color: var(--dark-green); 
     font-weight:bold;
     /* font-size: x-large; */
 }
@@ -92,6 +107,7 @@ hr{
 .hero{
     padding: 2rem ;
     margin: auto;
+       
 }
 .hero .hero-img{
     display: block;
@@ -105,16 +121,23 @@ hr{
     color: var(--dark-green);
 }
 .hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
+    color:#14532D;
+    font-size: larger;
 }
 
  /* SECTION */
 .section{
-    padding: 1rem;
+    padding: 2rem;
 }
 .section h1{
-    text-align: center;
+    text-align: left;
      
+}
+.section p{
+    text-align: left;
+}
+.section a{
+    text-align: left;
 }
 .ow{
     background-color: var(--off-white);
@@ -124,7 +147,7 @@ hr{
 /* FOOTER */
 .footer{
     background-color: var(--primary-color);
-    color: whitesmoke;
+    color: #166534;
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius:0.5rem ;
@@ -136,7 +159,7 @@ hr{
 }
 
 .footer .link{
-    color: white;
+    color:var(--dark-green);
 }
 
 .footer ul{
