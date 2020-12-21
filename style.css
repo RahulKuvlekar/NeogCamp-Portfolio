@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@500&display=swap');
 
 * {
   padding: 0;
@@ -8,12 +10,15 @@
   --primary-color: #bef264;
   --dark-green: #166534;
   --off-white: #ecfccb;
-  --dark-gray: #6b7280;
+  --dark-gray:#404040;
 }
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f7fee7;
   /* font-weight: 400; */
+}
+h1{
+    color: var(--dark-gray);
 }
 hr {
   margin: 2rem 0rem;
@@ -82,8 +87,8 @@ hr {
 
 .nav-brand {
   font-weight: bolder;
-  font-style: inherit;
-  font-size: x-large;
+  font-size: xx-large;
+  font-family: 'Caveat', cursive;
 }
 
 .navigation .nav-pill {
@@ -158,6 +163,8 @@ hr {
 
 .footer .link {
   color: var(--dark-green);
+  font-weight: bold;
+  padding: 0rem;
 }
 
 .footer ul {
