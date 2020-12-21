@@ -127,6 +127,16 @@ hr {
   color: #14532d;
   font-size: larger;
 }
+.hero p{
+    color: #65A30D;
+    text-align: center;
+    display: block ;
+    max-width: 500px;
+    padding: 1rem 0rem;
+    margin: auto;
+    font-style: italic;
+    font-size: large;
+}
 
 /* SECTION */
 .section {
