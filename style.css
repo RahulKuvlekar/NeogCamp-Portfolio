@@ -7,14 +7,15 @@
   margin: 0;
 }
 :root {
-  --primary-color: #bef264;
-  --dark-green: #166534;
-  --off-white: #ecfccb;
+  --primary-color:#F87171 ;
+  --dark-green: white;
+  --off-white: #FED7AA;
   --dark-gray:#404040;
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f7fee7;
+  background-color: #FFEDD5;
+  color: #525252;
   /* font-weight: 400; */
 }
 h1{
@@ -57,8 +58,8 @@ hr {
 }
 
 .link-secondary {
-  border: 1px solid var(--dark-green);
-  color: var(--dark-green);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   border-radius: 0.5rem;
   display: block;
   max-width: 140px;
@@ -121,14 +122,15 @@ hr {
   text-align: center;
   font-size: x-large;
   padding-top: 1rem;
-  color: var(--dark-green);
+  color: var(--primary-color);
 }
 .hero .hero-heading .heading-inverted {
-  color: #14532d;
+  color:#EF4444;
   font-size: larger;
+  font-size: 30px;
 }
 .hero p{
-    color: #65A30D;
+    color: #7F1D1D;
     text-align: center;
     display: block ;
     max-width: 500px;
@@ -159,7 +161,7 @@ hr {
 /* FOOTER */
 .footer {
   background-color: var(--primary-color);
-  color: #166534;
+  color: var(--dark-green);
   padding: 1rem;
   text-align: center;
   border-top-right-radius: 2rem;
