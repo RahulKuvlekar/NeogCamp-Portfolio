@@ -182,7 +182,44 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
+.footer-github{
+  max-width: 75px;
+  border-radius:50%;
+  padding: 0px;
+  background-color:white;
+  max-width:3rem ;
+  /* height: 3rem; */
+  border: 2px solid black;
+  margin: 0rem 0.5rem;
+}
 
+.footer-linkedin{
+  max-width: 75px;
+  /* border-radius:70%; */
+  padding: 0px;
+  background-color: white;
+  max-width:3rem ;
+  border-radius: 0.5rem;
+}
+
+.footer-twitter{
+  max-width: 50px;
+  /* border-radius:70%; */
+  padding: 0px;
+  background-color: var(--primary-color);
+  max-width:3rem ;
+  border-radius: 0.5rem;
+}
+
+
+.footer-instagram{
+  max-width: 75px;
+  /* border-radius:70%; */
+  padding: 0px;
+  background-color:var(--primary-color);
+  max-width:3rem ;
+  border-radius: 0.5rem;
+}
 .article-project {
   padding: 2rem;
 }
