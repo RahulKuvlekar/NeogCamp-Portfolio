@@ -12,6 +12,7 @@
   --dark-green: white;
   --off-white: #FED7AA;
   --dark-gray:#404040;
+  --blog-color:#FFF7ED;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -271,4 +272,8 @@ hr {
   margin-bottom: 2em;
   max-width: 100%;
   height: auto;
+}
+
+.blog-color{
+  background-color: var(--blog-color);
 }
