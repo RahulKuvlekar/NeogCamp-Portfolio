@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs | DOM</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-brand">RahulKuvlekar</div>
+      <ul class="nav-pill list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">HOME </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="projects.html">PROJECTS </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="blogs.html">BLOGS </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div
+      class="container blog-margin blog-color"
+      style="padding-top: 3rem; font-family: 'Merriweather', serif"
+    >
+      <div>
+        <h2>Do you know what DOM is ?</h2>
+      </div>
+      <hr />
+      <div style="display: flex">
+        <div style="display: flex">
+          <img
+            src="/Images/rahul(450kb).jpg"
+            alt="Avatar"
+            class="blog-circleImg"
+          />
+        </div>
+        <div style="display: inline; padding: 1rem">
+          <h3 style="display: inline">Rahul Kuvlekar's Blog</h3>
+          <br />
+          <small style="color: #a8a29e">July 27, 2021</small>
+        </div>
+      </div>
+      <hr />
+
+      <p>
+        <strong>What is Document Object Model (DOM) ?</strong>
+        <br />
+        <br />
+        It is a programming interface for HTML and XML documents. DOM is created
+        by the browser when a webpage is loaded and creates a model of that
+        page. This model is the Tree. The DOM is a tree-like representation of
+        the contents of a webpage using nodes instead of elements. These nodes
+        represent HTML elements, and they can be manipulated and re-rendered.
+        <br />
+        JavaScript DOM is the API that JavaScript uses to communicate to static
+        HTML elements, making them more functional.
+        <br />
+        In <strong>simpler terms</strong>, Its Models the entire HTML document
+        in an object to access the properties.
+      </p>
+      <br />
+      <p>
+        <strong>DOM Tree</strong>
+        <br /><br />
+        Html Sample -
+        <br />
+      </p>
+
+      <div
+        class="container container-center"
+        style="max-width: fit-content; padding: 0rem"
+      >
+        <img class="html-img" src="/Images/HtmlCodeSnippet.png" />
+      </div>
+      <br />
+      DOM Tree Representation -
+      <div
+        class="container container-center"
+        style="max-width: fit-content; padding: 0rem"
+      >
+        <img class="tree-img" src="/Images/DOM-TREE.png" />
+      </div>
+      <br />
+
+      <strong> What are DOM elements ?</strong>
+      <br />
+      <br />
+      <ul>
+        <l1
+          ><strong>1. Root Node - </strong>The root node is the &lt;Doctype
+          html&gt;</l1
+        ><br />
+        <l1
+          ><strong>2. Parent Node - </strong>The Parent node is the node with a
+          child or children.</l1
+        ><br />
+        <l1
+          ><strong>3. Child Node - </strong>Any subnode of a given parent node
+          is called a child node </l1
+        ><br />
+        <l1
+          ><strong>4. Siblings Node - </strong> All the children Nodes of same
+          parent Nodes are called siblings Node</l1
+        >
+      </ul>
+
+      <br /><br />
+
+      <strong>
+        What actions can we perform with this DOM model in JavaScript ?
+      </strong
+      >
+      <br />
+      <br />
+      <ul>
+        <l1
+          ><strong>- </strong> Change/Remove HTML elements in the DOM/on the
+          page.</l1
+        ><br />
+        <l1><strong>- </strong> Change and add CSS styles to elements.</l1
+        ><br />
+        <l1
+          ><strong>- </strong> Create new elements and insert them into the
+          DOM/page. </l1
+        ><br />
+        <l1
+          ><strong>- </strong> Attach event listeners to elements (click,
+          keypress, submit).</l1
+        >
+      </ul>
+      <br />
+      Apart from the methods mentioned here, W3C specification supports over a
+      hundred DOM styles, methods, events, documents, and event objects
+
+      <blockquote class="quote">
+        <p style="background-color: #ffedd5; padding: 1rem">
+          “ DOM is neither a part of HTML nor JavaScript, it’s a separate set of
+          rules ”
+        </p>
+      </blockquote>
+      <br />
+      <div
+        class="container container-center"
+        style="max-width: fit-content; padding: 0rem"
+      >
+        <img class="tree-img" src="/Images/bye.gif" />
+      </div>
+      <br />
+      <br />
+    </div>
+
+    <footer class="footer">
+      <div class="footer-header">Social Media Handles</div>
+
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/RahulKuvlekar">
+            <img class="footer-twitter" src="/Images/twitter_logo.png" />
+          </a>
+        </li>
+
+        <li class="link list-item-inline">
+          <a class="link" href="https://github.com/RahulKuvlekar">
+            <img class="footer-github" src="/Images/github_logo.png" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/rahulkuvlekar">
+            <img class="footer-linkedin" src="/Images/linkedin_logo.png" />
+          </a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="https://www.instagram.com/rahul_kuvlekar_/">
+            <img class="footer-instagram" src="/Images/instagram_logo.png" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
