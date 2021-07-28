@@ -273,7 +273,11 @@ hr {
   max-width: 100%;
   height: auto;
 }
-
+.html-img,
+.tree-img{
+  max-width: 700px;
+  width: 100%;
+}
 .blog-color{
   background-color: var(--blog-color);
 }
