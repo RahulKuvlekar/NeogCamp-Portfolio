@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 :root {
-  --primary-color:#F87171 ;
+  --primary-color: #f87171;
   --dark-green: white;
-  --off-white: #FED7AA;
-  --dark-gray:#404040;
-  --blog-color:#FFF7ED;
+  --off-white: #fed7aa;
+  --dark-gray: #404040;
+  --blog-color: #fff7ed;
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #FFEDD5;
+  background-color: #ffedd5;
   color: #525252;
   /* font-weight: 400; */
 }
-h1{
-    color: var(--dark-gray);
+h1 {
+  color: var(--dark-gray);
 }
 hr {
   margin: 2rem 0rem;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
 }
 /* SPACES */
 .margin-top {
@@ -92,7 +92,7 @@ hr {
 .nav-brand {
   font-weight: bolder;
   font-size: xx-large;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
 .navigation .nav-pill {
@@ -128,19 +128,19 @@ hr {
   color: var(--primary-color);
 }
 .hero .hero-heading .heading-inverted {
-  color:#EF4444;
+  color: #ef4444;
   font-size: larger;
   font-size: 30px;
 }
-.hero p{
-    color: #7F1D1D;
-    text-align: center;
-    display: block ;
-    max-width: 500px;
-    padding: 1rem 0rem;
-    margin: auto;
-    font-style: italic;
-    font-size: large;
+.hero p {
+  color: #7f1d1d;
+  text-align: center;
+  display: block;
+  max-width: 500px;
+  padding: 1rem 0rem;
+  margin: auto;
+  font-style: italic;
+  font-size: large;
 }
 
 /* SECTION */
@@ -185,42 +185,41 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
-.footer-github{
+.footer-github {
   max-width: 75px;
-  border-radius:50%;
+  border-radius: 50%;
   padding: 0px;
-  background-color:white;
-  max-width:3rem ;
+  background-color: white;
+  max-width: 3rem;
   /* height: 3rem; */
   border: 2px solid black;
   margin: 0rem 0.5rem;
 }
 
-.footer-linkedin{
+.footer-linkedin {
   max-width: 75px;
   /* border-radius:70%; */
   padding: 0px;
   background-color: white;
-  max-width:3rem ;
+  max-width: 3rem;
   border-radius: 0.5rem;
 }
 
-.footer-twitter{
+.footer-twitter {
   max-width: 50px;
   /* border-radius:70%; */
   padding: 0px;
   background-color: var(--primary-color);
-  max-width:3rem ;
+  max-width: 3rem;
   border-radius: 0.5rem;
 }
 
-
-.footer-instagram{
+.footer-instagram {
   max-width: 75px;
   /* border-radius:70%; */
   padding: 0px;
-  background-color:var(--primary-color);
-  max-width:3rem ;
+  background-color: var(--primary-color);
+  max-width: 3rem;
   border-radius: 0.5rem;
 }
 .article-project {
@@ -228,38 +227,36 @@ hr {
 }
 
 .article-blog {
-  padding:0rem 2rem 2rem 2rem;
+  padding: 0rem 2rem 2rem 2rem;
 }
 
 /* NAVIGATION BADALTOY */
 
 /* BLOGS */
-.blog-circleImg{    
+.blog-circleImg {
   align-self: center;
   border-radius: 50%;
   max-width: 60px;
 }
 
-.blog-margin{
+.blog-margin {
   margin: auto;
   margin-top: 4rem;
   margin-left: 3rem;
   margin-bottom: 4rem;
   margin-right: 3rem;
-
 }
 
-.blog-margin hr{
+.blog-margin hr {
   margin: 1rem 0rem;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
 }
-
 
 .quote {
   font-weight: 550;
   font-style: italic;
   color: #525252;
-  border-left-width: .25rem;
+  border-left-width: 0.25rem;
   border-left-color: var(--primary-color);
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
@@ -267,17 +264,21 @@ hr {
   padding-left: 1em;
 }
 
-.meme-img{
+.meme-img {
   margin-top: 0.7em;
   margin-bottom: 2em;
   max-width: 100%;
   height: auto;
 }
 .html-img,
-.tree-img{
+.tree-img,
+.selectors-img {
   max-width: 700px;
   width: 100%;
 }
-.blog-color{
+.selectors-img {
+  margin: 2rem auto;
+}
+.blog-color {
   background-color: var(--blog-color);
 }
